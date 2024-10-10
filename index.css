@@ -1,0 +1,48 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: skyblue;
+}
+
+body {
+    background: skyblue;
+}
+
+#title {
+    background-color: #FFF500;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#carousel-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Ensure carousel container is the reference for absolute positioning */
+
+
+}
+
+
+body .carousel-control-prev-icon,
+body .carousel-control-next-icon {
+  background-color: black; /* Set background color to black */
+  background-size: 50%; /* Ensure the icon fills the background */
+  border-radius: 50%; /* Optional: add rounded corners */
+  width: 30px; /* Adjust the size */
+  height: 30px; /* Adjust the size */
+  position: absolute; /* Keep the buttons positioned absolutely relative to the container */
+  top: 50%; /* Center the buttons vertically */
+  transform: translateY(-50%); /* Vertically center the buttons */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body .btn { 
+    background-color: yellow;
+    color: black;
+    border-radius: 30px;
+}

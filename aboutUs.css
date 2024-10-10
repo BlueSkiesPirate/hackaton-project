@@ -1,0 +1,52 @@
+.title_background{
+    background-color: red;
+    height: 200px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    
+
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background-color: skyblue;
+  }
+  
+body {
+    background: skyblue;
+}
+
+  #title {
+      background-color: #FFF500;
+      border-bottom-left-radius: 55px;
+      border-bottom-right-radius: 55px;
+      border-top-left-radius: 100px;
+      border-top-right-radius: 100px;
+      text-align: center;
+      font-size: 3rem;
+  }
+
+  #Contribution_Container{
+    height:400px;
+    width:100%;
+    background-color: green;
+    display: flex;
+  }
+
+  .contribution_type{
+    height:100%;
+    width:25%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #one, #two, #three, #four{
+    background-color: red;
+    border:solid white 1px;
+  }
+
+  #one:hover, #two:hover, #three:hover, #four:hover{
+    background-color: gold;
+  }

@@ -1,0 +1,20 @@
+#main_container{
+    width:100vw;
+    height:100vh;
+    background-color: #c6dde5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+#form_container{
+    background-color: white;
+    width:50vw;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px 10px;
+}
