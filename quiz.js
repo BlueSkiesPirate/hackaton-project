@@ -24,6 +24,7 @@ const questions = [
     },
     {
         image: "Quiz_Img/pexels-catherinesheila-2409022.jpg",
+        question: "How much plastic waste is estimated to enter the ocean every year?",
         options: ["1 million tons", "8 million tons", "15 million tons", "30 million tons"],
         correct_answer: "8 million tons",
         feedback: "It is estimated that 8 million tons of plastic waste enter the ocean each year. <ol>We can reduce this through:</ol> <li>Using reusable items</li> <li>Reducing the use of single-use plastics</li>"
