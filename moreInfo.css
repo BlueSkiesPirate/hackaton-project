@@ -1,0 +1,26 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: skyblue;
+}
+
+body {
+    background: skyblue;
+}
+
+#title {
+    background-color: #29aeac;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#picturesAndInfo {
+    padding: 2%;
+}
+
+hr.rounded {
+    border-top: 8px solid #5b5757;
+    border-radius: 4px;
+}
